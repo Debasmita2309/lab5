@@ -9,3 +9,9 @@
 add <- function(x, y) {
   x + y
 }
+library(devtools)
+install_github(lab5)
+library(lab5deb)
+
+
+devtools::document()
